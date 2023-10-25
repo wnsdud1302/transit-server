@@ -59,7 +59,7 @@ def train_arrival():
 
     return jsonify(data)
 
-@app.route('/train_arrival/getline')
+@app.route('/train-arrival/getline')
 def linelist():
     station: str = request.args['station']
     lines = getLines(station)
