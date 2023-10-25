@@ -3,8 +3,11 @@ from sqlalchemy.orm import sessionmaker
 from sqlalchemy_utils import database_exists, create_database
 from http import HTTPStatus
 from Table import Test, Base
+import requests
 
 from flask import Flask, request, redirect, url_for, jsonify, json
+
+from getTrinData import get_train_data
 
 
 engine = create_engine('mysql+mysqldb://junyeong:deargod205@mysqldb.cfndvi40fq6b.ap-northeast-2.rds.amazonaws.com:3306/hittimer')
@@ -44,3 +47,15 @@ def Json():
     sessoin.add(new)
     sessoin.commit()
     return jsonify({"data": params, "status" : HTTPStatus.OK})
+
+@app.route('/train-arrival', methods=["GET"])
+def train_arrival():
+    query = request.args
+    line = query.get("line")
+    station = query.get("station")
+    updnline = query.get("updnline")
+
+    data=get_train_data(line=line, station=station, updnline=updnline)
+
+    return jsonify(data)
+
