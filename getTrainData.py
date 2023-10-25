@@ -113,7 +113,5 @@ def getLines(station):
         num = line
         json = {getName(line): line}
         result.append(json)
-    
-    print(result)
 
     return result
