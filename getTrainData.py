@@ -109,9 +109,7 @@ def getLines(station):
     result = []
 
     for line in lines:
-        
-        num = line
-        json = {getName(line): line}
-        result.append(json)
+        result.append([getName(line), line])
 
+    result = dict(result)
     return result
