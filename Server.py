@@ -7,7 +7,7 @@ import requests
 
 from flask import Flask, request, redirect, url_for, jsonify, json
 
-from getTrinData import get_train_data
+from getTrinData import get_train_data, getLines
 
 
 engine = create_engine('mysql+mysqldb://junyeong:deargod205@mysqldb.cfndvi40fq6b.ap-northeast-2.rds.amazonaws.com:3306/hittimer')
@@ -59,3 +59,8 @@ def train_arrival():
 
     return jsonify(data)
 
+@app.route('/train_arrival/getline')
+def linelist():
+    station: str = request.args['station']
+    lines = getLines(station)
+    return jsonify(lines)
