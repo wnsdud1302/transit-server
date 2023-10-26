@@ -7,7 +7,7 @@ import requests
 
 from flask import Flask, request, redirect, url_for, jsonify, json
 
-from getTrainData import get_train_data, getLines
+from getTrainData import get_train_data, getLines, getNearStation
 
 
 engine = create_engine('mysql+mysqldb://junyeong:deargod205@mysqldb.cfndvi40fq6b.ap-northeast-2.rds.amazonaws.com:3306/hittimer')
@@ -64,3 +64,9 @@ def linelist():
     station: str = request.args['station']
     lines = getLines(station)
     return jsonify(lines)
+
+@app.route('/train-arrival/near-station', methods=["POST"])
+def nearStation():
+    data = request.get_json()
+    stations = getNearStation(data['lat'], data['lng'])
+    return jsonify({"data": stations, "status": HTTPStatus.ACCEPTED})

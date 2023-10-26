@@ -1,26 +1,7 @@
 import requests
+import json
 
-from enum import Enum
 
-class Line(Enum):
-    일호선 = 1001
-    이호선 = 1002
-    삼호선 = 1003
-    사호선 = 1004
-    오호선 = 1005
-    육호선 = 1006
-    칠호선 = 1007
-    팔호선 = 1008
-    구호선 = 1009
-    공항철도 = 1065
-    경의중앙선 = 1063
-    경춘선 = 1067
-    신분당선 = 1077
-    분당선 = 1075
-    우이신설선 = 1092
-    서해선 = 1093
-    경강선 = 1081
-    
 def getName(line: str) -> str:
     if line == '1001':
         return "1호선"
@@ -94,7 +75,7 @@ def get_train_data(line, station, updnline):
         
     return result
 
-def getLines(station):
+def getLines(station: str):
     url = "http://swopenapi.seoul.go.kr/api/subway//6557475641776e7331303455684e4559/json/realtimeStationArrival/0/20/"
     url  = url + "/" + station
 
@@ -113,3 +94,29 @@ def getLines(station):
 
     result = dict(result)
     return result
+
+def getNearStation(lat, lng):
+
+    with open('station_coordinate.json', 'r') as f:
+        json_data = json.load(f)
+
+    def filterCoordinate(item):
+        corlat = item.get('lat')
+        corlong = item.get('lng')
+
+        return corlat > lat - 0.02 and corlat < lat + 0.02 and corlong > lng - 0.015 and corlong < lng + 0.015
+
+
+    filtered = list(filter(lambda item: item.get('lat') is not None, json_data))
+
+    filtered = list(filter(filterCoordinate, filtered))
+
+    data = dict()
+
+    for item in filtered:
+        new = {item.get('name'): item.get('line')}
+        print(new)
+        data.update(new)
+
+    print(data)
+    return data
