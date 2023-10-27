@@ -71,8 +71,9 @@ def get_train_data(line, station, updnline):
                 "현재역": item["arvlMsg3"]}
         result.append(json)
 
+    print(len(result))
     
-    if result.count == 1:
+    if len(result) == 1:
         result.append({"종착역": "도착정보 없음",
                 "도착시간": "도착정보 없음",
                 "현재역": "도착정보 없음"})
