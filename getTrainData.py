@@ -1,7 +1,5 @@
 import requests
 import json
-
-
 def getName(line: str) -> str:
     if line == '1001':
         return "1호선"
@@ -97,7 +95,7 @@ def getLines(station: str):
 
 def getNearStation(lat, lng):
 
-    with open('station_coordinate.json', 'r') as f:
+    with open('station_coordinate.json', 'r', encoding="utf-8") as f:
         json_data = json.load(f)
 
     def filterCoordinate(item):
@@ -115,8 +113,6 @@ def getNearStation(lat, lng):
 
     for item in filtered:
         new = {item.get('name'): item.get('line')}
-        print(new)
         data.update(new)
 
-    print(data)
     return data
